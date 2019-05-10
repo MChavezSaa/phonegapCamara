@@ -38,12 +38,13 @@ function tomarFoto(){
   navigator.camera.getPicture(hayFoto,noHayFoto,opciones);
 }
 
-function hayFoto(){
-
+function hayFoto(foto){
+  console.log(foto);
+  $$("#foto").attr("src",foto);
 }
 
-function noHayFoto(){
-
+function noHayFoto(error){
+  console.log(error);
 }
 
 var opciones={};
