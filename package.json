@@ -1,0 +1,22 @@
+{
+    "name": "cl.ubiobio.camara",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "displayName": "camara",
+    "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-browser": "^5.0.4",
+        "cordova-plugin-camera": "4.0.3"
+    },
+    "cordova": {
+        "platforms": [
+            "browser",
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-camera": {}
+        }
+    }
+}
