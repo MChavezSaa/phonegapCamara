@@ -47,4 +47,6 @@ function noHayFoto(error){
   console.log(error);
 }
 
-var opciones={};
+var opciones={
+  correctOrientation: true,
+};
