@@ -35,4 +35,15 @@ $$(document).on('deviceready', function() {
 
 function tomarFoto(){
   console.log("click en btn tomar foto");
+  navigator.camera.getPicture(hayFoto,noHayFoto,opciones);
 }
+
+function hayFoto(){
+
+}
+
+function noHayFoto(){
+
+}
+
+var opciones={};
