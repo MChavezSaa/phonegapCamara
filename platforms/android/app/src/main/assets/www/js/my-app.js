@@ -49,4 +49,7 @@ function noHayFoto(error){
 
 var opciones={
   correctOrientation: true,
+  sourceType: 1,
+  quality: 60,
+  allowEdit: true,
 };
